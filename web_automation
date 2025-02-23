@@ -1,1 +1,13 @@
+import os
+from time import sleep
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 
+# Create a new Chrome driver instance
+driver = webdriver.Chrome()
+
+# Navigate to a website
+driver.get("https://ethansb16.github.io")
+
+sleep(100)
